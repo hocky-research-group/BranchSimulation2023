@@ -125,15 +125,15 @@ def other_distances(trj):
     return d2_116_187, d2_72_211, d3_119_198, d3_76_222
 
 # Clamp twisting
-def clamp_twisting_OLD(trj):
-    clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC2","RPC2"), (32,147,244,18))
-    #clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC4","ARP3"), (32,147,157,93))
-    return clamp_dihedral
+#def clamp_twisting_OLD(trj):
+#    clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC2","RPC2"), (32,147,244,18))
+#    #clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC4","ARP3"), (32,147,157,93))
+#    return clamp_dihedral
 
-def clamp_twisting_NEW(trj):
-    #clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC2","RPC2"), (32,147,244,18))
-    clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC4","ARP3"), (32,147,157,93))
-    return clamp_dihedral
+#def clamp_twisting_NEW(trj):
+#    #clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC2","RPC2"), (32,147,244,18))
+#    clamp_dihedral = get_residue_dist_angle_dihedral(trj,("RPC4","RPC4","RPC4","ARP3"), (32,147,157,93))
+#    return clamp_dihedral
 
 # Helix bending
 def helix_bending(trj):
