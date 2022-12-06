@@ -56,14 +56,14 @@ print("")
 #print("")
 
 # Clamp twisting
-if coordfile.startswith("mammalian"):
-    print(clamp_twisting_OLD(trj))
-    np.savetxt("%s_Clamp_twisting_OLD.txt" % prefix,np.array(clamp_twisting_OLD(trj)).T,fmt="%.10f")
-    print(clamp_twisting_NEW(trj))
-    np.savetxt("%s_Clamp_twisting_NEW.txt" % prefix,np.array(clamp_twisting_NEW(trj)).T,fmt="%.10f")
-else:
-    print(clamp_twisting_NEW(trj))
-    np.savetxt("%s_Clamp_twisting.txt" % prefix,np.array(clamp_twisting_NEW(trj)).T,fmt="%.10f")
+#if coordfile.startswith("mammalian"):
+#    print(clamp_twisting_OLD(trj))
+#    np.savetxt("%s_Clamp_twisting_OLD.txt" % prefix,np.array(clamp_twisting_OLD(trj)).T,fmt="%.10f")
+#    print(clamp_twisting_NEW(trj))
+#    np.savetxt("%s_Clamp_twisting_NEW.txt" % prefix,np.array(clamp_twisting_NEW(trj)).T,fmt="%.10f")
+#else:
+#    print(clamp_twisting_NEW(trj))
+#    np.savetxt("%s_Clamp_twisting.txt" % prefix,np.array(clamp_twisting_NEW(trj)).T,fmt="%.10f")
 
 ## Clamp twisting (NEW)
 #print("=========Clamp twisting=========")
