@@ -1,5 +1,4 @@
-# BranchSimulation2023
-## Key conformation transitions during activation of Arp2/3 complex revealed by molecular dynamics simulations
+# Key conformation transitions during activation of Arp2/3 complex revealed by molecular dynamics simulations
 ### Yuvraj Singh, Brad J. Nolen, Glen M. Hocky
 **This repository will include the in the GROMACS input files to run production MD and a Jupyter Notebook (test.ipynb) to run relevant analysis on sample trajectories and topology files provided. The repository consists of the following directories**
 
