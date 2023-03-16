@@ -10,7 +10,7 @@
 6) **no_daughter**; Active Arp2/3 complex (bound to mother filament only) sample trajectory and topology files
 7) **splayed**; Inactive Arp2/3 complex sample trajectory and topology files
 
-**Further instructions for to run analysis are provided in Arp23_analysis.ipynb.**
+**Further instructions to run analysis are provided in Arp23_analysis.ipynb.**
 
 **Due to the bulk of the simulation input files, not all files have been uploaded to this repository. Any additional files can be provided upon request. The GROMACS input files (.tpr) for the full junction, no daughter, complex alone, and splayed systems can be accessed through the following link**\
 https://drive.google.com/drive/folders/10LAyCBMfzWyq-rSxwd-FKUzbqMsSdXj6 
