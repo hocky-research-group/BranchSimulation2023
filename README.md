@@ -12,14 +12,14 @@
 
 **Further instructions for to run analysis are provided in Arp23_analysis.ipynb.**
 
-**Due to the bulk of the simulation input files, not all files have been uploaded in the repository. Any additional files can always be provided upon requets. The GROMACS input files (.tpr) for the full junction, no daughter, complex alone, and splayed systems can be accessed through the following link**
+**Due to the bulk of the simulation input files, not all files have been uploaded to this repository. Any additional files can be provided upon request. The GROMACS input files (.tpr) for the full junction, no daughter, complex alone, and splayed systems can be accessed through the following link**
 
 https://drive.google.com/drive/folders/10LAyCBMfzWyq-rSxwd-FKUzbqMsSdXj6 
 
-**An example command to run a MD simulation (after calling the GROMACS module) if the following**
+**An example command to run a MD simulation (after calling the GROMACS module) is the following**
 
 mpirun -np 1 gmx_mpi mdrun -s $tprfile$ -deffnm $outprefix$ -nsteps $steps$ -ntomp 1
 
-**The above command can also be executed using the example bash script provided**
+**The above command can also be executed using the example bash script (run_gromacs_test.sh) provided**
 
 bash run_gromacs_test.sh $tprfile$ $outprefix$ $steps$
