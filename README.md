@@ -12,7 +12,7 @@
 
 **Further instructions to run analysis are provided in Arp23_analysis.ipynb.**
 
-**Due to the bulk of the simulation input files, not all files have been uploaded to this repository. Any additional files can be provided upon request. The GROMACS input files (.tpr) for the full junction, no daughter, complex alone, and splayed systems can be accessed through the following link**\
+**Due to the bulk of the simulation input files, not all files have been uploaded to this repository. Any additional files can be provided upon request. The GROMACS input files (.tpr) for the Branch junction, Active Arp2/3 complex (bound to mother filament only),  Active Arp2/3 complex, and Inactive Arp2/3 complex systems can be accessed through the following link**\
 https://drive.google.com/drive/folders/10LAyCBMfzWyq-rSxwd-FKUzbqMsSdXj6 
 
 **An example command to run a MD simulation (after calling the GROMACS module) is the following**\
