@@ -30,3 +30,4 @@ In addition, we have provided the following scripts to facilitate with this repo
 2) mammalian_functions.py: All pertinent functions used in "BranchSimulation_calculations.ipynb"
 3) unzip_files.sh: To unzip any zip files
 
+## Package rquirements
