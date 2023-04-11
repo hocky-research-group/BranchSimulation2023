@@ -1,6 +1,6 @@
 # Molecular Simulations Reveal Structural Changes Supporting A Multi-step Model Of Arp2/3 Activation (In prep.)
 ### Yuvraj Singh, Brad J. Nolen, Glen M. Hocky
-**This repository sample trajectory (.xtc format) and topology (.psf format) files provided to peform preliminary analysis as well as the necessary simulation and analysis scripts. The repository consists of the following directories**
+**This repository contains sample trajectory (.xtc format) and topology (.psf format) files provided to peform preliminary analysis as well as the necessary simulation and analysis scripts. The repository consists of the following directories**
 
 1) **7TPT**: Branch junction pdb
 2) **BtArp23_splay**: Inactive Arp2/3 complex pdb
