@@ -38,6 +38,6 @@ $\bullet$ unzip_files.sh: To unzip any zip files
 ## Package rquirements
 The following python packages should be installed before running any of the jupyter notebooks
 
-$\bullet$ MDTraj https://mdtraj.org/1.9.4/installation.html 
+$\bullet$ MDTraj (https://mdtraj.org/1.9.4/installation.html)
 
-$\bullet$ Seaborn https://seaborn.pydata.org/installing.html 
+$\bullet$ Seaborn (https://seaborn.pydata.org/installing.html) 
