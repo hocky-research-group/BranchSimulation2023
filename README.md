@@ -34,4 +34,7 @@ In addition, we have provided the following scripts to facilitate with this repo
 
 ## Package rquirements
 The following python packages should be installed before running any of the jupyter notebooks
+
 $\bullet$ MDTraj https://mdtraj.org/1.9.4/installation.html 
+
+$\bullet$ Seaborn https://seaborn.pydata.org/installing.html 
