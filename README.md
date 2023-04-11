@@ -10,6 +10,13 @@
 6) **no_daughter**: Active Arp2/3 complex (bound to mother filament only) sample trajectory and topology files
 7) **splayed**: Inactive Arp2/3 complex sample trajectory and topology files
 
+## Package rquirements
+The following python packages should be installed before running any of the jupyter notebooks
+
+$\bullet$ MDTraj (https://mdtraj.org/1.9.4/installation.html)
+
+$\bullet$ Seaborn (https://seaborn.pydata.org/installing.html) 
+
 ## Analysis and Simulation files
 
 **Two Jupyter notebooks (.ipynb) are provided for the following functions**
@@ -35,9 +42,3 @@ $\bullet$ mammalian_functions.py: All pertinent functions used in "BranchSimulat
 
 $\bullet$ unzip_files.sh: To unzip any zip files
 
-## Package rquirements
-The following python packages should be installed before running any of the jupyter notebooks
-
-$\bullet$ MDTraj (https://mdtraj.org/1.9.4/installation.html)
-
-$\bullet$ Seaborn (https://seaborn.pydata.org/installing.html) 
