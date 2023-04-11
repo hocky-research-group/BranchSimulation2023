@@ -34,7 +34,7 @@ gmx_mpi mdrun -s $tprfile$ -deffnm $outname$ -nsteps $steps$ -ntomp 1
 **The above command can also be executed using the example bash script (run_gromacs_test.sh) provided**\
 bash run_gromacs_test.sh $tprfile$ $outname$ $steps$
 
-In addition, we have provided the following scripts to facilitate with this repository
+**In addition, we have provided the following scripts to facilitate with this repository**
 
 $\bullet$ cgmap.py: Python script to map all-atom groups to coarse-grained beads (https://software.rcc.uchicago.edu/mscg/docs/intro.html)
 
