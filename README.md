@@ -40,5 +40,5 @@ $\bullet$ cgmap.py: Python script to map all-atom groups to coarse-grained beads
 
 $\bullet$ mammalian_functions.py: All pertinent functions used in "BranchSimulation_calculations.ipynb"
 
-$\bullet$ unzip_files.sh: To unzip any zip files
+$\bullet$ unzip_files.sh: To unzip any .zip files
 
