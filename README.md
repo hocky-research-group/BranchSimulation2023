@@ -1,4 +1,4 @@
-# Key conformation transitions during activation of Arp2/3 complex revealed by molecular dynamics simulations (In prep.)
+# Molecular Simulations Reveal Structural Changes Supporting A Multi-step Model Of Arp2/3 Activation (In prep.)
 ### Yuvraj Singh, Brad J. Nolen, Glen M. Hocky
 **This repository includes a Jupyter Notebook (Arp23_analysis.ipynb) to run relevant analysis on sample trajectory (.xtc format) and topology (.psf format) files provided. The repository consists of the following directories**
 
