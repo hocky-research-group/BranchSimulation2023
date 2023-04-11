@@ -36,7 +36,7 @@ bash run_gromacs_test.sh $tprfile$ $outname$ $steps$
 
 In addition, we have provided the following scripts to facilitate with this repository
 
-$\bullet$ cgmap.py: Python script to map all-atom groups to coarse-grained quatities (https://software.rcc.uchicago.edu/mscg/docs/intro.html)
+$\bullet$ cgmap.py: Python script to map all-atom groups to coarse-grained beads (https://software.rcc.uchicago.edu/mscg/docs/intro.html)
 
 $\bullet$ mammalian_functions.py: All pertinent functions used in "BranchSimulation_calculations.ipynb"
 
