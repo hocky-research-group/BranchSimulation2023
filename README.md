@@ -10,6 +10,8 @@
 6) **no_daughter**: Active Arp2/3 complex (bound to mother filament only) sample trajectory and topology files
 7) **splayed**: Inactive Arp2/3 complex sample trajectory and topology files
 
+## Analysis and Simulation files
+
 **Two Jupyter notebooks (.ipynb) are provided for the following functions**
 
 1) BranchSimulation_calculations.ipynb: To run relevant calculations and save the data as text files, that can be read
