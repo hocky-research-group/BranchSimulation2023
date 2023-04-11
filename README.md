@@ -15,6 +15,7 @@
 **Two Jupyter notebooks (.ipynb) are provided for the following functions**
 
 $\bullet$ BranchSimulation_calculations.ipynb: To run relevant calculations and save the data as text files, that can be read
+
 $\bullet$ BranchSimulation_plotting.ipynb: To visualize the output data from "BranchSimulation_calculations.ipynb"
 
 **Due to the bulk of the simulation input files, not all files have been uploaded to this repository. Any additional files can be provided upon request. The GROMACS input files (.tpr) for the Branch junction, Active Arp2/3 complex (bound to mother filament only),  Active Arp2/3 complex, and Inactive Arp2/3 complex systems can be accessed through the following link**\
@@ -29,11 +30,14 @@ bash run_gromacs_test.sh $tprfile$ $outname$ $steps$
 In addition, we have provided the following scripts to facilitate with this repository
 
 $\bullet$ cgmap.py: Python script to map all-atom groups to coarse-grained quatities (https://software.rcc.uchicago.edu/mscg/docs/intro.html)
+
 $\bullet$ mammalian_functions.py: All pertinent functions used in "BranchSimulation_calculations.ipynb"
+
 $\bullet$ unzip_files.sh: To unzip any zip files
 
 ## Package rquirements
 The following python packages should be installed before running any of the jupyter notebooks
 
 $\bullet$ MDTraj https://mdtraj.org/1.9.4/installation.html 
+
 $\bullet$ Seaborn https://seaborn.pydata.org/installing.html 
