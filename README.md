@@ -16,7 +16,7 @@
 https://drive.google.com/drive/folders/10LAyCBMfzWyq-rSxwd-FKUzbqMsSdXj6 
 
 **An example command to run a MD simulation (after calling the GROMACS module) is the following**\
-mpirun -np 1 gmx_mpi mdrun -s $tprfile$ -deffnm $outprefix$ -nsteps $steps$ -ntomp 1
+gmx_mpi mdrun -s $tprfile$ -deffnm $outname$ -nsteps $steps$ -ntomp 1
 
 **The above command can also be executed using the example bash script (run_gromacs_test.sh) provided**\
-bash run_gromacs_test.sh $tprfile$ $outprefix$ $steps$
+bash run_gromacs_test.sh $tprfile$ $outname$ $steps$
