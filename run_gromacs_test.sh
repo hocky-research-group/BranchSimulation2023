@@ -1,8 +1,8 @@
 #!/bin/bash
 
-tprfile=$1
-deffnm=$2
-steps=$3
+tprfile=$1 # GROMACS tpr file
+deffnm=$2 # output name (can specify the directory and output prefix)
+steps=$3 # number of steps to run
 
 # Need the tprfile, output directory/prefix, number of steps to run #
 if [ -z "$tprfile" ];then
@@ -11,7 +11,7 @@ exit
 fi
 
 # Load GROMACS module #
-module load gromacs-plumed/openmpi/intel/2022.3
+module load gromacs/openmpi/intel/2020.4
 
 gmxexe=gmx_mpi
-mpirun -np 1 $gmxexe mdrun -s $tprfile -deffnm $deffnm -nsteps $steps -ntomp 1
+$gmxexe mdrun -s $tprfile -deffnm $deffnm -nsteps $steps -ntomp 1
