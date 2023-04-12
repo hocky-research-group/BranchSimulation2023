@@ -10,12 +10,14 @@
 6) **no_daughter**: Active Arp2/3 complex (bound to mother filament only) sample trajectory and topology files
 7) **splayed**: Inactive Arp2/3 complex sample trajectory and topology files
 
-## Package rquirements
+## Package requirements
 The following python packages should be installed before running any of the jupyter notebooks
 
 $\bullet$ MDTraj (https://mdtraj.org/1.9.4/installation.html)
 
 $\bullet$ Seaborn (https://seaborn.pydata.org/installing.html) 
+
+$\bullet$ Pandas (https://pandas.pydata.org/docs/getting_started/install.html)
 
 ## Analysis and Simulation files
 
