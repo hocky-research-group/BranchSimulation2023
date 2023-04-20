@@ -9,6 +9,7 @@
 5) **morph**: Snapshots of 31 cryo-em structures of Arp2/3 complex transitioning from the splayed configuration to shortpitch configuration
 6) **no_daughter**: Active Arp2/3 complex (bound to mother filament only) sample trajectory and topology files
 7) **splayed**: Inactive Arp2/3 complex sample trajectory and topology files
+8) **PLUMED_inputs**: PLUMED input files for the Active Arp2/3 complex and Arp2/3 MF-bound in separate directories
 
 ## Package requirements
 The following python packages should be installed before running any of the jupyter notebooks
